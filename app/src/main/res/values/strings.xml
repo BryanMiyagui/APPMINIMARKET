@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PRUEBADEMOAPPMINIMARKET</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- para la ventana login del sistema -->
+
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="titulo">Iniciar sesión</string>
+    <string name="botonLogin">Ingresar</string>
+    <string name="botonRegistrarLogin">Registrar</string>
+    <string name="email">Email</string>
+    <string name="signup">signup</string>
+    <string name="loginhere">Already have an account?<u>Login</u></string>
+    <string name="mensajeLogin"></string>
+
+    <!-- para la ventana registro de cliente -->
+    <string name="mensajeGuardarNew"></string>
+    <string name="botonGuardarNew">Guardar</string>
+    <string name="botonCancelarNew">Cancelar</string>
+
+    <!-- Arreglo para el tipo de pago -->
+
+    <string-array name="tipopago">
+        <item>Visa</item>
+        <item>Mastercard</item>
+        <item>Dinners</item>
+        <item>American Express</item>
+    </string-array>
+</resources>

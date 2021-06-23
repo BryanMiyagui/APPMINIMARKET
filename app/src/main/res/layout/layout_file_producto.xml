@@ -1,0 +1,64 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/imagenproductoLis"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/cervezacristral" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/descripcionproductoLis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jabon Nivea de coco"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/codigocategoriaProductoLis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100001"
+                android:textSize="1sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+            <TextView
+                android:id="@+id/codigoproductoLis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100001"
+                android:textSize="1sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+            <TextView
+                android:id="@+id/precioproductoLis"
+                android:layout_width="268dp"
+                android:layout_height="55dp"
+                android:text="s/ 20"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
